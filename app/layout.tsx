@@ -37,11 +37,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'BuildCalc Engineering Team' }],
   creator: 'BuildCalc',
-  metadataBase: new URL('https://buildcalc.com'),
+  metadataBase: new URL('https://buildcalc-tan.vercel.app'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://buildcalc.com',
+    url: 'https://buildcalc-tan.vercel.app',
     siteName: 'BuildCalc',
     title: 'Free Construction Calculator — BuildCalc',
     description:
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
       'Free construction calculator tools for accurate material estimates, concrete slabs, house construction costs, and framing projects.',
   },
   alternates: {
-    canonical: 'https://buildcalc.com',
+    canonical: 'https://buildcalc-tan.vercel.app',
   },
   icons: {
     icon: [

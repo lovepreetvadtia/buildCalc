@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 import { BookOpen, Clock, Calculator, ArrowRight } from 'lucide-react'
 import { GUIDES, getGuideBySlug } from '@/data/guides'
 import { getCalculatorBySlug } from '@/data/calculators'
-import { constructMetadata } from '@/lib/seo/metadata'
+import { constructMetadata, SITE_URL } from '@/lib/seo/metadata'
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import { BreadcrumbsJsonLd } from '@/components/seo/JsonLd'
 
@@ -50,9 +50,9 @@ export default function GuideDetailPage({ params }: PageProps) {
   ]
 
   const jsonLdBreadcrumbs = [
-    { name: 'Home', url: 'https://buildcalc.com' },
-    { name: 'Guides', url: 'https://buildcalc.com/guides' },
-    { name: guide.title, url: `https://buildcalc.com/guides/${guide.slug}` },
+    { name: 'Home', url: SITE_URL },
+    { name: 'Guides', url: `${SITE_URL}/guides` },
+    { name: guide.title, url: `${SITE_URL}/guides/${guide.slug}` },
   ]
 
   return (

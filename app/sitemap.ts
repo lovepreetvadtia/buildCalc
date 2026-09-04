@@ -4,7 +4,7 @@ import { CATEGORIES } from '@/data/categories'
 import { GUIDES } from '@/data/guides'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://buildcalc.com'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://buildcalc-tan.vercel.app'
   const currentDate = new Date().toISOString()
 
   // Static core routes

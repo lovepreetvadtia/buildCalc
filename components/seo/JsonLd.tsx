@@ -1,15 +1,17 @@
+import { SITE_URL } from '@/lib/seo/metadata'
+
 export function WebSiteJsonLd() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'BuildCalc',
-    url: 'https://buildcalc.com',
+    url: SITE_URL,
     description: 'Practical calculators for real-world building projects, construction, home improvement, and landscaping.',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://buildcalc.com/calculators?q={search_term_string}',
+        urlTemplate: `${SITE_URL}/calculators?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },

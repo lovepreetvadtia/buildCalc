@@ -22,7 +22,7 @@ export function ResultCard({
     result.breakdown.forEach((item) => {
       copyText += `- ${item.label}: ${item.value} ${item.unit || ''} ${item.note ? `(${item.note})` : ''}\n`
     })
-    copyText += `\nCalculated on BuildCalc (https://buildcalc.com)`
+    copyText += `\nCalculated on BuildCalc (https://buildcalc-tan.vercel.app)`
 
     navigator.clipboard.writeText(copyText).then(() => {
       setCopied(true)

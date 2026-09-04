@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://buildcalc.com'
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://buildcalc-tan.vercel.app'
 export const SITE_NAME = 'BuildCalc'
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/images/og-image.png`
 

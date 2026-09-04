@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://buildcalc.com/sitemap.xml',
+    sitemap: 'https://buildcalc-tan.vercel.app/sitemap.xml',
   }
 }

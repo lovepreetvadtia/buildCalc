@@ -1,49 +1,49 @@
 # BuildCalc — Construction & Building Calculator Hub
 > Practical calculators for real-world building projects, construction, remodeling, and landscaping.
 
-Website: https://buildcalc.com
+Website: https://buildcalc-tan.vercel.app
 
 ## Overview
 BuildCalc is a fast, client-side engineering utility platform providing mathematical formulas, material estimates, and construction cost calculators.
 
 ## Trade Categories
-- [Construction](https://buildcalc.com/categories/construction): House building, foundations, framing, materials, and project estimates.
-- [Concrete](https://buildcalc.com/categories/concrete): Volume, slabs, mix design, footings, and concrete materials.
-- [Home Improvement](https://buildcalc.com/categories/home-improvement): Wall paneling, garages, flooring, decks, and renovation calculations.
-- [Landscaping](https://buildcalc.com/categories/landscaping): Mulch, patios, stone walls, gravel, soil, and outdoor projects.
-- [Project Cost](https://buildcalc.com/categories/project-cost): Construction costs, material costs, labor estimates, and renovation budgets.
+- [Construction](https://buildcalc-tan.vercel.app/categories/construction): House building, foundations, framing, materials, and project estimates.
+- [Concrete](https://buildcalc-tan.vercel.app/categories/concrete): Volume, slabs, mix design, footings, and concrete materials.
+- [Home Improvement](https://buildcalc-tan.vercel.app/categories/home-improvement): Wall paneling, garages, flooring, decks, and renovation calculations.
+- [Landscaping](https://buildcalc-tan.vercel.app/categories/landscaping): Mulch, patios, stone walls, gravel, soil, and outdoor projects.
+- [Project Cost](https://buildcalc-tan.vercel.app/categories/project-cost): Construction costs, material costs, labor estimates, and renovation budgets.
 
 ## Available Calculators
 
 ### Project Cost
-- [House Construction Cost Calculator](https://buildcalc.com/calculators/house-construction-cost-calculator): Estimate total residential construction cost based on square footage, finish quality tier, foundation, basement, and garage stalls.
-- [Construction Cost Per Square Foot Calculator](https://buildcalc.com/calculators/construction-cost-per-square-foot-calculator): Compute unit square-foot rates and overall budgets for new builds, additions, full remodels, and workshops.
+- [House Construction Cost Calculator](https://buildcalc-tan.vercel.app/calculators/house-construction-cost-calculator): Estimate total residential construction cost based on square footage, finish quality tier, foundation, basement, and garage stalls.
+- [Construction Cost Per Square Foot Calculator](https://buildcalc-tan.vercel.app/calculators/construction-cost-per-square-foot-calculator): Compute unit square-foot rates and overall budgets for new builds, additions, full remodels, and workshops.
 
 ### Concrete & Masonry
-- [Concrete Calculator](https://buildcalc.com/calculators/concrete-calculator): Calculate concrete volume in cubic yards, cubic feet, and cubic meters for slabs, curbs, and round column Sonotubes. Includes 40/50/60/80 lb bag counts.
-- [Concrete Slab Material Calculator](https://buildcalc.com/calculators/concrete-slab-calculator): Estimate ready-mix volume, crushed gravel base tonnage, rebar grid sticks (12", 18", 24" spacing), and vapor barrier rolls.
-- [Concrete Mix Design Calculator](https://buildcalc.com/calculators/concrete-mix-design-calculator): Proportions of Portland cement bags (94 lb), concrete sand, gravel, and water for target compressive strengths (2000, 2500, 3000, 3500, 4000 PSI).
-- [Deck Footing Size Calculator](https://buildcalc.com/calculators/deck-footing-size-calculator): Calculate deck pier diameter, tributary loads, frost depth excavation, and concrete volume based on soil bearing capacity.
-- [Basement Materials Calculator](https://buildcalc.com/calculators/basement-materials-calculator): Estimate 8x8x16 CMU blocks, poured concrete volume, Type S mortar bags, rebar footage, and waterproofing membrane for foundation walls.
+- [Concrete Calculator](https://buildcalc-tan.vercel.app/calculators/concrete-calculator): Calculate concrete volume in cubic yards, cubic feet, and cubic meters for slabs, curbs, and round column Sonotubes. Includes 40/50/60/80 lb bag counts.
+- [Concrete Slab Material Calculator](https://buildcalc-tan.vercel.app/calculators/concrete-slab-calculator): Estimate ready-mix volume, crushed gravel base tonnage, rebar grid sticks (12", 18", 24" spacing), and vapor barrier rolls.
+- [Concrete Mix Design Calculator](https://buildcalc-tan.vercel.app/calculators/concrete-mix-design-calculator): Proportions of Portland cement bags (94 lb), concrete sand, gravel, and water for target compressive strengths (2000, 2500, 3000, 3500, 4000 PSI).
+- [Deck Footing Size Calculator](https://buildcalc-tan.vercel.app/calculators/deck-footing-size-calculator): Calculate deck pier diameter, tributary loads, frost depth excavation, and concrete volume based on soil bearing capacity.
+- [Basement Materials Calculator](https://buildcalc-tan.vercel.app/calculators/basement-materials-calculator): Estimate 8x8x16 CMU blocks, poured concrete volume, Type S mortar bags, rebar footage, and waterproofing membrane for foundation walls.
 
 ### Hardscape & Landscaping
-- [Patio Slope Calculator](https://buildcalc.com/calculators/patio-slope-calculator): Calculate drainage pitch (1/4" per foot), vertical elevation drop, crushed base gravel tonnage, and bedding sand.
-- [Stone Wall Calculator](https://buildcalc.com/calculators/stone-wall-calculator): Calculate tons of natural stone (fieldstone, flagstone, ashlar, river rock), wall volume, drainage gravel backfill, and mortar.
-- [Pine Straw Mulch Calculator](https://buildcalc.com/calculators/pine-straw-mulch-calculator): Calculate square bales and large round rolls needed for landscape beds at 2" to 4" depth, plus annual refresh estimates.
+- [Patio Slope Calculator](https://buildcalc-tan.vercel.app/calculators/patio-slope-calculator): Calculate drainage pitch (1/4" per foot), vertical elevation drop, crushed base gravel tonnage, and bedding sand.
+- [Stone Wall Calculator](https://buildcalc-tan.vercel.app/calculators/stone-wall-calculator): Calculate tons of natural stone (fieldstone, flagstone, ashlar, river rock), wall volume, drainage gravel backfill, and mortar.
+- [Pine Straw Mulch Calculator](https://buildcalc-tan.vercel.app/calculators/pine-straw-mulch-calculator): Calculate square bales and large round rolls needed for landscape beds at 2" to 4" depth, plus annual refresh estimates.
 
 ### Home Improvement & Renovation
-- [Wall Paneling Calculator](https://buildcalc.com/calculators/wall-paneling-calculator): Calculate 4x8/4x10 sheets, 6" and 8" shiplap boards, door and window opening deductions, and panel construction adhesive.
-- [Garage Door Cable Length Calculator](https://buildcalc.com/calculators/garage-door-cable-length-calculator): Replacement cable cut lengths for standard torsion drums, high-lift rise, vertical lift, and extension springs with safety dead wraps.
+- [Wall Paneling Calculator](https://buildcalc-tan.vercel.app/calculators/wall-paneling-calculator): Calculate 4x8/4x10 sheets, 6" and 8" shiplap boards, door and window opening deductions, and panel construction adhesive.
+- [Garage Door Cable Length Calculator](https://buildcalc-tan.vercel.app/calculators/garage-door-cable-length-calculator): Replacement cable cut lengths for standard torsion drums, high-lift rise, vertical lift, and extension springs with safety dead wraps.
 
 ## Educational Guides
-- [How Much Concrete Do I Need for a Slab?](https://buildcalc.com/guides/how-much-concrete-do-i-need-for-a-slab)
-- [How to Calculate Construction Cost Per Square Foot](https://buildcalc.com/guides/how-to-calculate-construction-cost-per-square-foot)
-- [What Is the Correct Patio Slope for Drainage?](https://buildcalc.com/guides/what-is-the-correct-patio-slope-for-drainage)
-- [How Much Material Do I Need for a Stone Wall?](https://buildcalc.com/guides/how-much-material-do-i-need-for-a-stone-wall)
-- [How to Estimate House Construction Costs](https://buildcalc.com/guides/how-to-estimate-house-construction-costs)
-- [How Much Pine Straw Mulch Do I Need for Landscaping?](https://buildcalc.com/guides/how-much-mulch-do-i-need)
+- [How Much Concrete Do I Need for a Slab?](https://buildcalc-tan.vercel.app/guides/how-much-concrete-do-i-need-for-a-slab)
+- [How to Calculate Construction Cost Per Square Foot](https://buildcalc-tan.vercel.app/guides/how-to-calculate-construction-cost-per-square-foot)
+- [What Is the Correct Patio Slope for Drainage?](https://buildcalc-tan.vercel.app/guides/what-is-the-correct-patio-slope-for-drainage)
+- [How Much Material Do I Need for a Stone Wall?](https://buildcalc-tan.vercel.app/guides/how-much-material-do-i-need-for-a-stone-wall)
+- [How to Estimate House Construction Costs](https://buildcalc-tan.vercel.app/guides/how-to-estimate-house-construction-costs)
+- [How Much Pine Straw Mulch Do I Need for Landscaping?](https://buildcalc-tan.vercel.app/guides/how-much-mulch-do-i-need)
 
 ## Machine-Readable Endpoints
-- Sitemap: https://buildcalc.com/sitemap.xml
-- Robots: https://buildcalc.com/robots.txt
-- LLMs Index: https://buildcalc.com/llms.txt
+- Sitemap: https://buildcalc-tan.vercel.app/sitemap.xml
+- Robots: https://buildcalc-tan.vercel.app/robots.txt
+- LLMs Index: https://buildcalc-tan.vercel.app/llms.txt

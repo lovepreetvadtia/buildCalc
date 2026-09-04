@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import { CALCULATORS, getCalculatorBySlug } from '@/data/calculators'
-import { constructMetadata } from '@/lib/seo/metadata'
+import { constructMetadata, SITE_URL } from '@/lib/seo/metadata'
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import { CalculatorJsonLd, BreadcrumbsJsonLd } from '@/components/seo/JsonLd'
 import { CalculatorToolRouter } from '@/components/calculators/CalculatorToolRouter'
@@ -50,10 +50,10 @@ export default function CalculatorPage({ params }: PageProps) {
   ]
 
   const jsonLdBreadcrumbs = [
-    { name: 'Home', url: 'https://buildcalc.com' },
-    { name: 'Calculators', url: 'https://buildcalc.com/calculators' },
-    { name: calc.categoryName, url: `https://buildcalc.com/categories/${calc.category}` },
-    { name: calc.title, url: `https://buildcalc.com/calculators/${calc.slug}` },
+    { name: 'Home', url: SITE_URL },
+    { name: 'Calculators', url: `${SITE_URL}/calculators` },
+    { name: calc.categoryName, url: `${SITE_URL}/categories/${calc.category}` },
+    { name: calc.title, url: `${SITE_URL}/calculators/${calc.slug}` },
   ]
 
   return (
@@ -61,7 +61,7 @@ export default function CalculatorPage({ params }: PageProps) {
       <CalculatorJsonLd
         title={calc.title}
         description={calc.shortDescription}
-        url={`https://buildcalc.com/calculators/${calc.slug}`}
+        url={`${SITE_URL}/calculators/${calc.slug}`}
         category={calc.categoryName}
       />
       <BreadcrumbsJsonLd items={jsonLdBreadcrumbs} />

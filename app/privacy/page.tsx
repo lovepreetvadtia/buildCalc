@@ -21,7 +21,7 @@ export default function PrivacyPage() {
 
       <div className="prose prose-charcoal max-w-none text-charcoal-800 text-xs sm:text-sm leading-relaxed space-y-5">
         <p>
-          At <strong>BuildCalc</strong>, accessible from https://buildcalc.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by BuildCalc and how we use it.
+          At <strong>BuildCalc</strong>, accessible from https://buildcalc-tan.vercel.app, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by BuildCalc and how we use it.
         </p>
 
         <h3 className="text-base font-bold text-charcoal-950">1. Information We Collect</h3>
@@ -46,7 +46,7 @@ export default function PrivacyPage() {
 
         <h3 className="text-base font-bold text-charcoal-950">5. Contact Us</h3>
         <p>
-          If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at legal@buildcalc.com.
+          If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us via our <a href="/contact" className="underline hover:text-primary-600">Contact page</a>.
         </p>
       </div>
     </div>

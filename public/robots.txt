@@ -1,6 +1,6 @@
-# robots.txt for BuildCalc (https://buildcalc.com)
+# robots.txt for BuildCalc (https://buildcalc-tan.vercel.app)
 User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://buildcalc.com/sitemap.xml
+Sitemap: https://buildcalc-tan.vercel.app/sitemap.xml

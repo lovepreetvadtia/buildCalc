@@ -22,7 +22,7 @@ export default function TermsPage() {
       <div className="prose prose-charcoal max-w-none text-charcoal-800 text-xs sm:text-sm leading-relaxed space-y-5">
         <h3 className="text-base font-bold text-charcoal-950">1. Acceptance of Terms</h3>
         <p>
-          By accessing and using <strong>BuildCalc</strong> (https://buildcalc.com), you accept and agree to be bound by the terms and provisions of this agreement.
+          By accessing and using <strong>BuildCalc</strong> (https://buildcalc-tan.vercel.app), you accept and agree to be bound by the terms and provisions of this agreement.
         </p>
 
         <h3 className="text-base font-bold text-charcoal-950">2. Informational & Estimation Purpose Only</h3>

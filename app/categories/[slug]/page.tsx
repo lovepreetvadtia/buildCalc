@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 import { ArrowRight, Layers } from 'lucide-react'
 import { CATEGORIES } from '@/data/categories'
 import { CALCULATORS, getCalculatorsByCategory } from '@/data/calculators'
-import { constructMetadata } from '@/lib/seo/metadata'
+import { constructMetadata, SITE_URL } from '@/lib/seo/metadata'
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import { BreadcrumbsJsonLd } from '@/components/seo/JsonLd'
 import { Icon } from '@/components/ui/Icon'
@@ -51,9 +51,9 @@ export default function CategoryPage({ params }: PageProps) {
   ]
 
   const jsonLdBreadcrumbs = [
-    { name: 'Home', url: 'https://buildcalc.com' },
-    { name: 'Categories', url: 'https://buildcalc.com/#categories' },
-    { name: cat.name, url: `https://buildcalc.com/categories/${cat.slug}` },
+    { name: 'Home', url: SITE_URL },
+    { name: 'Categories', url: `${SITE_URL}/#categories` },
+    { name: cat.name, url: `${SITE_URL}/categories/${cat.slug}` },
   ]
 
   return (
