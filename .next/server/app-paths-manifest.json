@@ -1,8 +1,0 @@
-{
-  "/disclaimer/page": "app/disclaimer/page.js",
-  "/about/page": "app/about/page.js",
-  "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/calculators/[slug]/page": "app/calculators/[slug]/page.js",
-  "/calculators/page": "app/calculators/page.js"
-}

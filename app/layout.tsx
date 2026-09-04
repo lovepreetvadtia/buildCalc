@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/layout/Header'
@@ -51,6 +52,9 @@ export const metadata: Metadata = {
     description:
       'Free construction, concrete, foundation, landscaping, and home project calculators.',
   },
+  verification: {
+    google: '3iVhPjJbfJ6OSy_uOjL7AFcxK6fcq-96hzcDExuY0pc',
+  },
 }
 
 export default function RootLayout({
@@ -64,6 +68,18 @@ export default function RootLayout({
         <WebSiteJsonLd />
       </head>
       <body className="min-h-screen flex flex-col bg-background text-charcoal-900 selection:bg-primary-100 selection:text-primary-900">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-J57STNSGYE"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-J57STNSGYE');
+          `}
+        </Script>
         <CustomCursor />
         <Header />
         <main className="flex-1">{children}</main>
