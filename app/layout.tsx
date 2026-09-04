@@ -53,6 +53,16 @@ export const metadata: Metadata = {
     description:
       'Free construction calculator tools for accurate material estimates, concrete slabs, house construction costs, and framing projects.',
   },
+  alternates: {
+    canonical: 'https://buildcalc.com',
+  },
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
   verification: {
     google: '3iVhPjJbfJ6OSy_uOjL7AFcxK6fcq-96hzcDExuY0pc',
   },

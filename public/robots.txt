@@ -1,0 +1,6 @@
+# robots.txt for BuildCalc (https://buildcalc.com)
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://buildcalc.com/sitemap.xml
