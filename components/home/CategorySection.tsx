@@ -15,7 +15,7 @@ export function CategorySection() {
           <span>BROWSE BY TRADE</span>
         </div>
         <h2 className="text-2xl sm:text-3xl font-extrabold text-charcoal-950 tracking-tight">
-          Explore by Project Category
+          Explore Every Free Construction Calculator by Trade
         </h2>
         <p className="text-sm text-charcoal-500 mt-2">
           Specialized calculation engines grouped for general contractors, tradespeople, and DIY builders.

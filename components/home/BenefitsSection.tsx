@@ -42,7 +42,7 @@ export function BenefitsSection() {
           Designed For Precision
         </span>
         <h2 className="text-2xl sm:text-3xl font-extrabold text-charcoal-950 tracking-tight">
-          Why Builders & Homeowners Choose BuildCalc
+          Why Choose Our Free Construction Calculator Platform
         </h2>
         <p className="text-sm text-charcoal-500 mt-2">
           An engineering utility platform crafted for speed, reliability, and mathematical clarity.

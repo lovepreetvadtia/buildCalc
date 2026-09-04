@@ -39,7 +39,7 @@ export function HowItWorksSection() {
             <span>ENGINEERED METHODOLOGY</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-charcoal-950 tracking-tight">
-            From a quick measurement to a project estimate
+            How Our Free Construction Calculators Work
           </h2>
           <p className="text-sm text-charcoal-500 mt-2">
             A transparent calculation workflow designed to eliminate costly ordering errors and material shortages.

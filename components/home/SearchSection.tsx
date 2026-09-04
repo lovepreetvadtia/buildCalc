@@ -38,7 +38,7 @@ export function SearchSection() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mb-2">
-          What are you calculating today?
+          Find the Right Free Construction Calculator
         </h2>
         <p className="text-xs sm:text-sm text-charcoal-400 mb-6">
           Search across 12+ specialized building material, dimension, and cost estimators.

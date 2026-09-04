@@ -17,7 +17,7 @@ export function PopularGrid() {
             <span>POPULAR UTILITIES</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-charcoal-950 tracking-tight">
-            Start with a calculator
+            Popular Free Construction Calculators
           </h2>
           <p className="text-sm text-charcoal-500 mt-1">
             Quick answers for the measurements and estimates you need most.

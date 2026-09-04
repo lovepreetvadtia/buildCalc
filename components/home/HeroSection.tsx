@@ -48,7 +48,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-base sm:text-lg text-charcoal-600 leading-relaxed max-w-2xl">
-              Free construction and home-project calculators built for real-world measurements — from concrete and foundations to patios, decks, landscaping, and construction costs.
+              Free construction calculator tools and project estimators built for real-world measurements — from concrete and foundations to patios, decks, landscaping, and house costs.
             </p>
 
             {/* CTAs */}

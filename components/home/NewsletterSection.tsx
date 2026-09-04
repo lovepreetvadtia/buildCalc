@@ -22,7 +22,7 @@ export function NewsletterSection() {
         </div>
 
         <h2 className="text-xl sm:text-2xl font-extrabold text-white tracking-tight mb-2">
-          Build smarter, one calculation at a time.
+          Get New Free Construction Calculator Updates
         </h2>
         <p className="text-xs sm:text-sm text-charcoal-400 max-w-md mx-auto mb-6">
           Get occasional updates when we publish new construction calculators and engineering guides.

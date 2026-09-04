@@ -38,7 +38,7 @@ export function FeaturedCostShowcase() {
             </div>
 
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-charcoal-950 tracking-tight leading-tight">
-              House Construction Cost Calculator
+              Free Construction Cost Calculator & House Estimator
             </h2>
 
             <p className="text-sm text-charcoal-600 leading-relaxed">

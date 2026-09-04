@@ -21,12 +21,13 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'BuildCalc — Practical Construction & Building Calculators',
+    default: 'Free Construction Calculator — BuildCalc',
     template: '%s | BuildCalc',
   },
   description:
-    'Free construction, concrete, foundation, landscaping, and home project calculators built for real-world measurements and accurate material estimates.',
+    'Free construction calculator tools for accurate material estimates, concrete slabs, house construction costs, patio slopes, deck footings, and building dimensions.',
   keywords: [
+    'free construction calculator',
     'construction calculators',
     'concrete calculator',
     'house construction cost',
@@ -42,15 +43,15 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://buildcalc.com',
     siteName: 'BuildCalc',
-    title: 'BuildCalc — Practical Construction & Building Calculators',
+    title: 'Free Construction Calculator — BuildCalc',
     description:
-      'Free construction, concrete, foundation, landscaping, and home project calculators built for real-world measurements.',
+      'Use our free construction calculator tools for accurate material estimates, concrete slabs, house building budgets, and hardscape planning.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BuildCalc — Practical Construction & Building Calculators',
+    title: 'Free Construction Calculator — BuildCalc',
     description:
-      'Free construction, concrete, foundation, landscaping, and home project calculators.',
+      'Free construction calculator tools for accurate material estimates, concrete slabs, house construction costs, and framing projects.',
   },
   verification: {
     google: '3iVhPjJbfJ6OSy_uOjL7AFcxK6fcq-96hzcDExuY0pc',
