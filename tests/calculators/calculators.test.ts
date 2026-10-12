@@ -11,6 +11,7 @@ import { calculateWallPaneling } from '@/lib/calculators/wallPaneling'
 import { calculateStoneWall } from '@/lib/calculators/stoneWall'
 import { calculatePineStrawMulch } from '@/lib/calculators/pineStrawMulch'
 import { calculateGarageDoorCable } from '@/lib/calculators/garageDoorCable'
+import { calculateFoundationCost } from '@/lib/calculators/foundationCost'
 
 describe('BuildCalc Calculation Engine Test Suite', () => {
   // 1. Concrete Calculator
@@ -206,6 +207,39 @@ describe('BuildCalc Calculation Engine Test Suite', () => {
       })
       // 7ft (84 in) + 18 in = 102 in = 8' 6"
       expect(result.primaryValue).toContain('8\' 6"')
+    })
+  })
+
+  // 13. Foundation Cost Calculator
+  describe('House Foundation Cost Calculator', () => {
+    it('calculates monolithic slab foundation cost, concrete yards, and breakdown', () => {
+      const result = calculateFoundationCost({
+        foundationType: 'monolithicSlab',
+        length: 40,
+        width: 30,
+        slabThickness: 4,
+        soilCondition: 'standard',
+        includeExcavation: true,
+        includeLabor: true,
+      })
+      // 1200 sq ft footprint
+      expect(result.primaryUnit).toBe('Estimated Total Cost')
+      expect(result.breakdown.length).toBeGreaterThan(6)
+      expect(result.secondaryHighlight).toContain('/ sq ft')
+      // Footprint 1200 sq ft, perimeter 140 ft
+      const concreteItem = result.breakdown.find(b => b.label.includes('Concrete Volume'))
+      expect(concreteItem).toBeDefined()
+      expect(parseFloat(concreteItem!.value as string)).toBeGreaterThan(15)
+    })
+
+    it('adjusts costs for stem wall and clay soil condition', () => {
+      const result = calculateFoundationCost({
+        foundationType: 'stemWall',
+        length: 50,
+        width: 30,
+        soilCondition: 'clay',
+      })
+      expect(result.recommendation).toContain('Stem wall')
     })
   })
 })

@@ -8,6 +8,7 @@ import { HouseCostUI } from './tools/HouseCostUI'
 import { CostPerSqFtUI } from './tools/CostPerSqFtUI'
 import { DeckFootingUI } from './tools/DeckFootingUI'
 import { BasementMaterialsUI } from './tools/BasementMaterialsUI'
+import { FoundationCostUI } from './tools/FoundationCostUI'
 import { PatioSlopeUI } from './tools/PatioSlopeUI'
 import { WallPanelingUI } from './tools/WallPanelingUI'
 import { StoneWallUI } from './tools/StoneWallUI'
@@ -18,6 +19,8 @@ export function CalculatorToolRouter({ slug }: { slug: string }) {
   switch (slug) {
     case 'house-construction-cost-calculator':
       return <HouseCostUI />
+    case 'foundation-cost-calculator':
+      return <FoundationCostUI />
     case 'construction-cost-per-square-foot-calculator':
       return <CostPerSqFtUI />
     case 'concrete-calculator':

@@ -17,6 +17,7 @@ BuildCalc is a fast, client-side engineering utility platform providing mathemat
 
 ### Project Cost
 - [House Construction Cost Calculator](https://buildcalc-tan.vercel.app/calculators/house-construction-cost-calculator): Estimate total residential construction cost based on square footage, finish quality tier, foundation, basement, and garage stalls.
+- [House Foundation Cost Calculator](https://buildcalc-tan.vercel.app/calculators/foundation-cost-calculator): Estimate concrete slab-on-grade, stem wall, crawlspace pier, and raft foundation costs with excavation, rebar, and labor breakdown.
 - [Construction Cost Per Square Foot Calculator](https://buildcalc-tan.vercel.app/calculators/construction-cost-per-square-foot-calculator): Compute unit square-foot rates and overall budgets for new builds, additions, full remodels, and workshops.
 
 ### Concrete & Masonry

@@ -69,10 +69,10 @@ $$\\text{Total Project Cost} = \\text{Conditioned Living Area (sq ft)} \\times \
   },
   {
     slug: 'what-is-the-correct-patio-slope-for-drainage',
-    title: 'What Is the Correct Patio Slope for Drainage?',
+    title: 'Patio Slope for Drainage: 1/4" Per Foot Rule & Drop Table',
     category: 'landscaping',
     categoryName: 'Landscaping',
-    excerpt: 'Calculate drop rates, pitch per linear foot, bedding sand depth, and drainage rules to protect your home foundation.',
+    excerpt: 'Calculate the correct patio slope for drainage. Find exact 1/4" per foot drop rates, base depth, and formulas to keep water away from your foundation.',
     readTime: '3 min read',
     calculatorSlug: 'patio-slope-calculator',
     content: `

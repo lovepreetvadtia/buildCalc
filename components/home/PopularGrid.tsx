@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, Sparkles, Ruler } from 'lucide-react'
-import { getPopularCalculators } from '@/data/calculators'
+import { getPopularCalculators, CALCULATORS } from '@/data/calculators'
 import { Icon } from '../ui/Icon'
 
 export function PopularGrid() {
@@ -27,7 +27,7 @@ export function PopularGrid() {
           href="/calculators"
           className="mt-4 sm:mt-0 inline-flex items-center gap-1.5 text-xs font-bold text-primary-600 hover:text-primary-700 group"
         >
-          <span>View all 12 calculators</span>
+          <span>View all {CALCULATORS.length} calculators</span>
           <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
         </Link>
       </div>

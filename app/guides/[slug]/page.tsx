@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return constructMetadata({
-    title: `${guide.title} — BuildCalc Guide`,
+    title: guide.title,
     description: guide.excerpt,
     path: `/guides/${guide.slug}`,
   })
